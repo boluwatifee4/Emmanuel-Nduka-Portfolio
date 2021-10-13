@@ -1,0 +1,54 @@
+@media only screen and (max-width:1024px) and  (min-width:320px){
+    header{
+        margin: 2rem 2rem;
+    }
+    nav{
+        padding: .5rem 1rem;
+    }
+    ul li a i{
+        padding: 1rem 1.5rem;
+    }
+    ul li a {
+        padding: 2rem .5rem;
+    }
+    #home{
+        flex-direction: column;
+        gap: 3.5rem;
+    }
+    .text{
+        margin-top: 1rem;
+    }
+    .help{
+        bottom: 40%;
+        width: 20%;
+    }
+    .col{
+        display: flex;
+        justify-content: center;
+        padding: .9rem;
+    }
+    
+    .en{
+        width: 200px;
+    }
+    .b-txt1{
+        top:66% ;
+        left: 55%; 
+    }
+    .b-txt2{
+        top:65% ;
+        left: 10%; 
+    }
+    .b-txt3{
+        top:90% ;
+        left: 73%;    
+    }
+    .b-txt4{
+        top:82% ;
+        left: 4%;
+    }
+    .b-txt{
+        top: 100%;
+        left: 39%;
+    }
+}

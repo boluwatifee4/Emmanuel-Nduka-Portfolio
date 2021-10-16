@@ -12,6 +12,35 @@ body{
     font-family: 'Paytone One', sans-serif;
     font-weight: 400;
 }
+.loader2{
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20rem;
+}
+.loader2::after{
+   
+    content: "\2026";
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: bottom;
+    animation: dots steps(4, end) 2s infinite;
+    width: 0px;
+}
+@keyframes dots {
+    to{
+        width: 1.25em;
+    }
+    
+}
+.house{
+    text-align: center;
+    width: 90%;
+    opacity: 0;
+    display: none;
+    transition: opacity 2s ease-in-out;
+}
 header{
     position: sticky;
     top: 0;
